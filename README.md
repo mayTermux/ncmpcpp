@@ -44,7 +44,7 @@ autoupdate
 make
 ```
 
-### ncmpcpp – featureful ncurses based MPD client inspired by ncmpc
+## ncmpcpp – featureful ncurses based MPD client inspired by ncmpc
 
 ### Main features:
 
