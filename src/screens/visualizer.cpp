@@ -33,6 +33,7 @@
 #include <fcntl.h>
 #include <netdb.h>
 #include <cassert>
+#include <linux/in.h>
 
 #include "global.h"
 #include "settings.h"
