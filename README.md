@@ -2,7 +2,49 @@
 
 Project page - https://rybczak.net/ncmpcpp/
 
-## ncmpcpp – featureful ncurses based MPD client inspired by ncmpc
+## Installation
+
+- Install Dependencies Package
+
+```bash
+pkg i git clang autoconf automake libtool pkg-config boost taglib binutils
+```
+
+- Clone this Repository
+
+```bash
+git clone --depth=1 https://github.com/mayTermux/ncmpcpp
+```
+
+- Move to this Directory
+
+```bash
+cd ncmpcpp
+```
+
+- Run Compile
+
+```bash
+libtoolize && aclocal && autoheader && autoconf && automake --add-missing
+```
+
+```bash
+autoupdate
+```
+
+```bash
+./autogen.sh
+```
+
+```bash
+./configure --enable-outputs --enable-visualizer --enable-clock --enable-static-boost --with-taglib
+```
+
+```bash
+make
+```
+
+### ncmpcpp – featureful ncurses based MPD client inspired by ncmpc
 
 ### Main features:
 
